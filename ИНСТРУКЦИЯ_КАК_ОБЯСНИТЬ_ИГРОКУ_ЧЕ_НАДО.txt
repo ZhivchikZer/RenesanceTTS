@@ -1,0 +1,67 @@
+================================================================
+ИНСТРУКЦИЯ ПО УСТАНОВКЕ КАРТ И МОДОВ (ДЛЯ ИГРОКОВ)
+================================================================
+
+Привет! Если ты читаешь это, значит тебе передали архив или игру.
+Рядом с этим файлом ты должен видеть папку под названием "Mods".
+В ней лежат все 3D-модели, звуки и картинки.
+
+Чтобы у тебя в игре ничего не сломалось и загрузилось мгновенно (без скачивания из интернета), тебе нужно просто скопировать/переместить эту папку "Mods" в правильное место на своём компьютере.
+
+ШАГ 1. НАЙДИ КУДА КИДАТЬ ПАПКУ
+
+В Tabletop Simulator есть два варианта хранения модов (зависит от твоих настроек игры):
+
+👉 ВАРИАНТ А (По умолчанию): В Документах
+Открой папку "Мои Документы" на компьютере. Внутри найди папку "My Games", а в ней папку "Tabletop Simulator".
+Полный путь обычно выглядит так:
+C:\Users\ТвоёИмя\Documents\My Games\Tabletop Simulator
+
+👉 ВАРИАНТ Б (Если ты менял папку в настройках игры, чтобы не засорять диск C): 
+Найди саму папку с установленной игрой Tabletop Simulator.
+Внутри нее открой папку "Tabletop Simulator_Data".
+Например: D:\SteamLibrary\steamapps\common\Tabletop Simulator\Tabletop Simulator_Data
+
+ШАГ 2. ПЕРЕТАЩИ ПАПКУ
+
+Возьми ту самую папку "Mods", которая лежит рядом с этой инструкцией, и просто перетащи её (или скопируй) в ту папку, которую ты нашел в Шаге 1.
+
+ВНИМАНИЕ: Если Windows спросит тебя: "Такая папка уже существует, заменить файлы?" — смело нажимай "ДА, заменить"! Мы ничего у тебя не удалим, только добавим нужные картинки.
+
+⚡ ВАЖНО ДЛЯ ИГРОКОВ ИЗ РФ (RU РЕГИОН):
+Если у вас установлены программы для обхода блокировок (например, GoodbyeDPI, Zapret и аналогичные), они могут блокировать корректную загрузку некоторых ассетов из облака Steam! Если вы видите красные ошибки в чате при загрузке карты, временно отключите эти программы.
+
+Всё готово! Запускай Tabletop Simulator и играй. Больше никаких мертвых ссылок!
+
+
+================================================================
+HOW TO INSTALL MAPS AND MODS (PLAYER GUIDE)
+================================================================
+
+Hello! If you're reading this, you probably received an archive or downloaded a folder.
+Right next to this file, you should see a folder named "Mods."
+It contains all the 3D models, sounds, and images for the game.
+
+To make sure everything loads instantly and nothing breaks (without downloading missing files from the internet), you just need to drop this "Mods" folder into the correct location on your PC.
+
+STEP 1. FIND WHERE TO DROP THE FOLDER
+
+Tabletop Simulator has two possible locations for saving mods, depending on your game settings:
+
+👉 OPTION A (Default Location): The Documents Folder
+Open your "Documents" folder. Inside, find the "My Games" folder, and then "Tabletop Simulator".
+The full path usually looks like this:
+C:\Users\YourName\Documents\My Games\Tabletop Simulator
+
+👉 OPTION B (If you changed the mod location in-game to save C: drive space):
+Find the folder where Tabletop Simulator is installed on your PC.
+Inside it, open the "Tabletop Simulator_Data" folder.
+For example: D:\SteamLibrary\steamapps\common\Tabletop Simulator\Tabletop Simulator_Data
+
+STEP 2. DRAG AND DROP
+
+Take the "Mods" folder located right next to this instruction file and simply drag and drop it (or copy it) into the folder you found in Step 1.
+
+ATTENTION: If Windows asks you, "This destination already has a folder named 'Mods', do you want to replace it?" — click "YES, replace"! We won't delete any of your existing files; we will only add the necessary images and models.
+
+You're all set! Launch Tabletop Simulator and enjoy the game. No more dead links!

@@ -1,0 +1,74 @@
+# ═══════════════════════════════════════════════════════════
+# Renesance v2.0 -- Настройки
+# ═══════════════════════════════════════════════════════════
+# Строки начинающиеся с # -- это комментарии (игнорируются)
+# Просто вставляйте пути как есть, НЕ нужно экранировать \
+# ═══════════════════════════════════════════════════════════
+
+# -----------------------------------------------------------
+# ПАПКИ-ИСТОЧНИКИ
+# Где искать кэшированные файлы TTS.
+# Можно указать НЕСКОЛЬКО папок -- каждый путь на НОВОЙ строке.
+# Программа будет искать файлы во ВСЕХ указанных папках.
+#
+# Примеры:
+# F:\D&D MAPS\Stalker\!Eminem
+# C:\Users\Tumyp\Documents\My Games\Tabletop Simulator\Mods
+# D:\Tabletop Simulator pirat\Tabletop Simulator\Tabletop Simulator_Data\Mods
+# -----------------------------------------------------------
+[sourceDirs]
+D:\Tabletop Simulator pirat\Tabletop Simulator\Tabletop Simulator_Data\Mods
+F:\D&D MAPS\Stalker\!Eminem
+C:\Users\Tumyp\Documents\My Games\Tabletop Simulator\Mods
+D:\SteamLibrary\steamapps\common\Tabletop Simulator\Tabletop Simulator_Data\Mods
+D:\SteamLibrary\steamapps\common\Tabletop Simulator\Tabletop Simulator_Data\1Mods
+# -----------------------------------------------------------
+# ПАПКА НАЗНАЧЕНИЯ
+# Куда копировать восстановленные файлы.
+# Здесь создастся папка Mods/ со всеми подпапками.
+# Эту папку потом можно передать другому игроку.
+# -----------------------------------------------------------
+[outputDir]
+D:\Tabletop Simulator pirat\Tabletop Simulator\Tabletop Simulator_Data\rec
+
+# -----------------------------------------------------------
+# SAVED OBJECTS
+# Путь к папке Saved Objects в TTS.
+# Туда будет сохранён куб Renesance.json
+# Обычно: C:\Users\Tumyp\Documents\My Games\Tabletop Simulator\Saves\Saved Objects
+# -----------------------------------------------------------
+[savedObjectsDir]
+C:\Users\Tumyp\Documents\My Games\Tabletop Simulator\Saves\Saved Objects
+
+# -----------------------------------------------------------
+# ПАПКА СОХРАНЕНИЙ
+# Путь к папке Saves в TTS (где лежат сейвы карт).
+# Обычно: C:\Users\Tumyp\Documents\My Games\Tabletop Simulator\Saves
+# Если не указать -- программа попробует найти сама.
+# -----------------------------------------------------------
+[savesDir]
+"C:\Users\Tumyp\Documents\My Games\Tabletop Simulator\Saves
+
+# -----------------------------------------------------------
+# РОДИТЕЛЬСКАЯ ПАПКА ДЛЯ РЕЖИМА ДЕБАГА
+# Путь к папке, ВНУТРИ которой находится папка Mods.
+# Обычно: D:\SteamLibrary\steamapps\common\Tabletop Simulator\Tabletop Simulator_Data
+#
+# При запуске в режиме дебага (START_DEBUG.bat или --debug):
+#   1. Оригинальная папка Mods переименовывается в _Mods (бэкап)
+#   2. Создаётся НОВАЯ пустая папка Mods с такой же структурой подпапок
+# При завершении программы:
+#   1. Пустая папка Mods удаляется
+#   2. Папка _Mods переименовывается обратно в Mods
+#
+# Если оставить пустым -- режим дебага НЕ активируется.
+# -----------------------------------------------------------
+[originalModsDir]
+D:\SteamLibrary\steamapps\common\Tabletop Simulator\Tabletop Simulator_Data
+
+# -----------------------------------------------------------
+# HTTP ПОРТ
+# Порт для связи с TTS (менять не обязательно)
+# -----------------------------------------------------------
+[httpPort]
+39741
